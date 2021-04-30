@@ -32,5 +32,5 @@ Run all simulations on a 200 x 200 area. We are keeping total amount of host con
 4 TA = (1, 3, 5, 7 x cell size)
 
 #### Vaccination/Pesticide/Fungicide effects 
-4 PE = (0.95, 0.80, 0.65, 0.50)
+4 PE = (0.95, 0.80, 0.65, 0.50)\
 4 HR = (1.00, 0.75, 0.50, 0.25 in TA but always 1.00 in infected cell)
