@@ -49,7 +49,7 @@ Run all simulations on a 200 x 200 area. We are keeping total amount of host con
 
 
 
-```{r plot, echo=FALSE}
+```{r plots, echo=FALSE}
 
 ```
 
