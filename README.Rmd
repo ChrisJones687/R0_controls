@@ -2,12 +2,15 @@
 title: "Factors Influencing Epidemic Outcomes"
 author: "Chris Jones"
 date: "5/4/2021"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+	
+The goal of this simulation study is to determine which factors have the greatest influence on epidemic outcomes. Here we are explicitly dividing the factors into two distinct categories: 1) disease ecology and 2) landscape structure.
 
 ## Glossary:
 R0 = basic reproduction number\
@@ -17,7 +20,7 @@ LP = latent period\
 IP = infectious period\
 TA = treatment area (i.e. buffer around infected cell)\
 TT = treatment timing\
-HR = 
+HR =  host removal percentage\
 A1 = Alpha-1 or natural distance scale parameter\
 PE = pesticide efficacy (pesticide is used to encompass (vaccinations, fungicides, pesticides, etc..)
 PD = pesticide duration (how many time units does the pesticide provide resistance)
